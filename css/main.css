@@ -6,6 +6,11 @@ html {
     overflow: hidden;
     overflow-y: scroll;
     overflow-x: hidden;
+	background: url(../images/image1.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 body {
@@ -20,10 +25,39 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.bg{
+	vertical-align: middle;
+	width:500px;
+	z-index:-1;
+}
+#column-content {
+  	position: relative;
+	
+}
+
 .Page1{
-height:100px;
-width:100%;
-color:#000000;
+	position: relative;
+ 	top: 50%;
+  	transform: translateY(-50%);
+    width: 50%;
+	left:100px;
+    /**border: 3px solid green;**/
+    padding: 10px;
+
+}
+.verticalalign{
+	
+	display: inline-block;
+	vertical-align: middle;
+}
+
+p{
+	 font-family: 'Raleway';
+	 color:#FFFFFF;
+	 font-size:64px;
+
+	 
+	
 }
 
 
@@ -47,7 +81,7 @@ color:#000000;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #284663;
+    background-color: #ffffff;
     font-family: 'Open Sans';
 	
 }
@@ -60,7 +94,7 @@ li {
 
 li a {
     display: block;
-    color: #fff;
+    color: #3a3935;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
