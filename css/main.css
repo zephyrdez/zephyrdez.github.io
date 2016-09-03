@@ -55,6 +55,7 @@ p{
 	 font-family: 'Raleway';
 	 color:#FFFFFF;
 	 font-size:64px;
+	 text-shadow: 2px 2px 4px #000000;
 
 	 
 	
@@ -83,6 +84,9 @@ p{
     overflow: hidden;
     background-color: #ffffff;
     font-family: 'Open Sans';
+	-moz-box-shadow:    2px 2px 6px 0px rgba(0,0,0,0.70);
+	-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.70);
+  	box-shadow:         2px 2px 6px 0px rgba(0,0,0,0.70);
 	
 }
 
